@@ -11,7 +11,7 @@ const ContactList = ({addContact,contact}) =>{
       addContact(name,mobileNo);
   }
 
-
+  
   return(
     <div>
           <form onSubmit={(e)=>onSubmit(e)}>
